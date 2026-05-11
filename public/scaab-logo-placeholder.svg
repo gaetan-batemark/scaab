@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140">
+  <!-- Shield shape (inverted pentagon) -->
+  <path d="M4 4 L116 4 L116 90 L60 136 L4 90 Z" fill="#003DA5" stroke="#FFD100" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner border accent -->
+  <path d="M14 14 L106 14 L106 84 L60 124 L14 84 Z" fill="none" stroke="#FFD100" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- SCAAB text -->
+  <text x="60" y="68" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="26" fill="#FFD100" letter-spacing="2">SCAAB</text>
+  <!-- EST. 1989 text -->
+  <text x="60" y="92" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="normal" font-size="11" fill="#FFD100" letter-spacing="1" opacity="0.8">EST. 1989</text>
+  <!-- Decorative line -->
+  <line x1="30" y1="76" x2="90" y2="76" stroke="#FFD100" stroke-width="1" opacity="0.4"/>
+</svg>
