@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(git:*)",
+      "Bash(supabase:*)",
+      "Bash(gh:*)",
+      "Read(**)",
+      "Edit(**)",
+      "Write(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "WebFetch(**)"
+    ],
+    "deny": [
+      "Bash(rm -rf /:*)",
+      "Bash(*sudo:*)",
+      "Bash(curl *production*)"
+    ]
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "experimentalAgentTeams": true
+}
